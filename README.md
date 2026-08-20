@@ -23,5 +23,8 @@ Methodology:
 6. Split data into in-sample (2015–2021) and out-of-sample (2022–2026) periods to test whether an allocation optimized on past data holds up on unseen data
 7. Analyse performance specifically during major market shocks (2018, 2020, 2022)
 
+Data:
+Raw price data is incluced in 'data/raw/prices.csv' for reproducibility as it is what has been used to get to the projects conclusion. It was collected via 'fetch_data.py' using yfinance on 21/08/2026, covering 2015-01-01 to 2026/08/20 for SPY, EFA, TLT and GLD.
+
 
 
