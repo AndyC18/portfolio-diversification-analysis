@@ -12,7 +12,7 @@ TLT - long-term US treasuries
 GLD - gold (commodities)
 
 Data Source:
-Daily historical market data will be taken from Yahoo Finance using the yfinance python library. For this project, data will be obtained covering 2015-2026. This provides access to historical Yahoo Finance market data and allows for downloading daily observations for multiple ticker symbols.
+Daily historical market data will be taken from Yahoo Finance using the yfinance python library. For this project, data will be obtained covering 2015-2026. This provides access to historical Yahoo Finance market data and allows for downloading daily observations for multiple ticker symbols. The data is adjusted for dividends so that the findings are not skewed and reflect the investors actual total return.
 
 Methodology:
 1. Collect daily price data (2015–2026) for all four assets
