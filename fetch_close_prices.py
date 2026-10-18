@@ -15,3 +15,4 @@ def clean_and_save_close_prices():
     return closePrices
 
 
+

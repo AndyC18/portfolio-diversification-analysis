@@ -26,5 +26,6 @@ Methodology:
 Data:
 Raw price data is incluced in 'data/raw/prices.csv' for reproducibility as it is what has been used to get to the projects conclusion. It was collected via 'fetch_data.py' using yfinance on 21/08/2026, covering 2015-01-01 to 2026/08/20 for SPY, EFA, TLT and GLD.
 
-
+figures:
+To display the correlation between the 4 tickers, a heatmap as used rather than just the correlation matrix. As it is coded using colours with blue to indicate independency and red to incidcate correlation, it is far more blatant to spot weaknesses when trying to diversify.
 
